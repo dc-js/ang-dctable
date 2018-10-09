@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as dc from 'dc';
+import * as dctable from 'dc.datatables';
 
 @Component({
   selector: 'app-root',
@@ -8,3 +10,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ang-dctable';
 }
+console.log(dc);
+console.log(dctable)
