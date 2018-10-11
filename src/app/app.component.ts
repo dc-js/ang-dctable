@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import * as dc from 'dc';
 import * as dctable from 'dc.datatables';
+import * as pageResize from './dataTables.pageResize.js';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,5 @@ export class AppComponent {
   title = 'ang-dctable';
 }
 console.log(dc);
-console.log(dctable)
+console.log(dctable);
+console.log('pr', pageResize);
