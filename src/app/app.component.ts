@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+
+import * as crossfilter from 'crossfilter2';
+import Dimension from 'crossfilter2';
+
 import * as dc from 'dc';
 import * as dctable from 'dc.datatables';
 import * as pageResize from './dataTables.pageResize.js';
