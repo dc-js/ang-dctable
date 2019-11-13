@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "^7",
     "@angular/router": "^7",
     "core-js": "^2.5.4",
-    "crossfilter2": "^1.5.0",
+    "crossfilter2": "crossfilter/crossfilter#angular-1.4",
     "dc": "^3.0.7",
     "dc.datatables": "0.0.6",
     "rxjs": "~6.2.0",
